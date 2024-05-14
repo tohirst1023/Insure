@@ -1,0 +1,144 @@
+/* Universal style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #837D88;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.btn-black {
+    border: 2px solid;
+    color: black;
+    padding: 10px 20px;
+}
+
+.btn-white {
+    border: 2px solid;
+    color: white;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*Header style */
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    color: white;
+}
+
+
+/* Intro styles */
+
+.intro {
+    background-color: #2D2641;
+    padding: 50px;
+    height: 500px;
+}
+
+.intro .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.intro .left {
+    width: 50%;
+    color: white;
+    margin-top: -100px;
+    
+}
+
+.intro img {
+    position: absolute;
+    right: 220px;
+    top: 100px;
+}
+
+/* 2 sekshon */
+.paddin {
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+
+.services .diff {
+    width: 30%;
+}
+
+.services .diffs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+/* 3 Sekshon */
+
+ .toxir .container {
+    background-color: #2D2641;
+    color: white;
+    width: 1110px;
+    padding: 20px 50px;
+    font-size: 30px;
+    margin-top: 50px;
+    
+ }
+
+ .toxir {
+    padding: 50px;
+ }
+ .toxir .orta {
+    width: 475px;
+    height: 112px;
+    top: 69px;
+    left: 81px;
+ }
+
+ .toxir a {
+    border: 2px solid;
+    color: white;
+    padding: 20px 20px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* footer style */
+
+footer .container {
+    display: flex;
+    align-items:center;
+    gap: 970px;
+}
+
+footer ul {
+     display: flex;
+     gap: 10px;
+     width: 100px;
+}
